@@ -14,9 +14,9 @@ var adminSocketId = null;
 // Use Render's PORT or fallback to 8080
 const PORT = process.env.PORT || 8080;
 
-// Root route — MUST be BEFORE listen
+// Root route — CHANGED TO PROVE LIVE SERVER
 app.get('/', (req, res) => {
-  res.send('Welcome to Xhunter Backend Server!!');
+  res.send('<h1 style="color: red; font-size: 40px; font-weight: bold; text-align: center;">SERVER IS LIVE - PROOF BY GROK</h1>');
 });
 
 // Start server
